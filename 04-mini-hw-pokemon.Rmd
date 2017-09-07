@@ -1,0 +1,82 @@
+---
+title: "Mini HW 04 - Visualizing Pokemon"
+author: "Mine Cetinkaya-Rundel"
+date: "Sep 7. 2017"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    keep_md: yes
+    theme: sandstone
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load required packages:
+
+```{r load-packages, message=FALSE}
+library(readr)
+library(ggplot2)
+library(dplyr)
+```
+
+## Data
+
+Load data:
+
+```{r load-data, message=FALSE}
+pokemon <- read_csv("data/pokemon.csv")
+```
+
+View the data:
+
+```{r}
+pokemon
+```
+
+
+## Analysis
+
+### Task 1: 
+
+*Pick two numerical variables and use a scatterplot to visualize their relationship.*
+
+```{r name-me-im-a-chunk}
+
+```
+
+
+### Task 2: 
+
+*Pick a third categorical variable, and color the points on the scatterplot by levels of this variable.*
+
+```{r me-too}
+
+```
+
+### Task 3: 
+
+*Pick two categorical variables and make a bar plot that depicts the relationship between them.*
+
+```{r same-here}
+
+```
+
+### Task 4: 
+
+*Pick a numerical and a categorical variable, and construct side-by-side box plots depicting the relationship between them.*
+
+```{r gotta-name-em-all}
+
+```
+
+### Task 5: 
+
+*Learn something new: violin plots! Read about them at http://ggplot2.tidyverse.org/reference/geom_violin.html, and convert your side-by-side box plots from the previous task to violin plots.*
+
+```{r whats-in-a-name}
+
+```
+
